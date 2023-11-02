@@ -75,17 +75,17 @@ const Container=styled.div`
   @media (max-width: 768px) {
     /* Media query for responsive design */
     .recommended-flex {
-      flex-direction: row; /* Change to a column layout on smaller screens */
+      flex-direction: row;
       align-items: flex-start;
-       /* Center items */
+       
        
     }
 
 
     .recommended-title {
-      margin-right: 10%; /* Remove left margin on smaller screens */
+      margin-right: 10%; 
       text-align: center;
-       /* Center the text */
+     
        width:100;
     }
   }
